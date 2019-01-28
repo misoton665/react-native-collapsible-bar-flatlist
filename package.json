@@ -1,0 +1,21 @@
+{
+  "name": "react-native-collapsible-bar-flatlist",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "cp-to-example": "rm -rf ./example/node_modules/collapsible-toolbar/out && cp -rf ./out ./example/node_modules/collapsible-toolbar"
+  },
+  "author": "misoton665",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-native": "^0.57.8"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.18",
+    "@types/react-native": "^0.57.25",
+    "typescript": "^3.2.2"
+  }
+}
