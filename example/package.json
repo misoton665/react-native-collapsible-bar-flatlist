@@ -10,7 +10,7 @@
   "dependencies": {
     "react": "16.6.3",
     "react-native": "0.57.8",
-    "react-native-collapsible-bar-flatlist": "git+https://github.com/misoton665/react-native-collapsible-bar-flatlist.git#v0.0.0"
+    "react-native-collapsible-bar-flatlist": "git+https://github.com/misoton665/react-native-collapsible-bar-flatlist.git#v0.0.1"
   },
   "devDependencies": {
     "@types/react": "^16.7.18",

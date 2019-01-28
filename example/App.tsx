@@ -1,8 +1,8 @@
 import * as React from 'react';
 import {View, Text, Dimensions, StyleSheet} from 'react-native';
-import {CollapsibleBarFlatList} from 'react-natiev-collapsible-bar-flatlist';
+import {CollapsibleBarFlatList} from 'react-native-collapsible-bar-flatlist';
 
-const Toolbar = () => <View style={styles.toolbar}><Text>Toolbar</Text></View>;
+const Bar = () => <View style={styles.toolbar}><Text>Toolbar</Text></View>;
 
 export default class App extends React.Component<{}, {isRefreshing: boolean}> {
   data = [...Array(60).keys()];
@@ -26,7 +26,7 @@ export default class App extends React.Component<{}, {isRefreshing: boolean}> {
     return (
       <View style={styles.container}>
         <CollapsibleBarFlatList
-          BarElement={<Toolbar/>}
+          BarElement={<Bar/>}
           barHeight={80}
           refreshing={this.state.isRefreshing}
           onRefresh={onRefresh}

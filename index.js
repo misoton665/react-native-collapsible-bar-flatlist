@@ -1,5 +1,5 @@
-import {CollapsibleToolbar} from './out/CollapsibleToolbar';
+import {CollapsibleBarFlatList} from './out/CollapsibleBarFlatList';
 
 module.exports = {
-  CollapsibleToolbar
+  CollapsibleBarFlatList
 };

@@ -1239,13 +1239,6 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-"collapsible-toolbar@git+https://github.com/misoton665/collapsible-toolbar.git#v0.3.0":
-  version "1.0.0"
-  resolved "git+https://github.com/misoton665/collapsible-toolbar.git#a55cc621d6919c0f1e552fc5c50afdb19f221df7"
-  dependencies:
-    react "^16.7.0"
-    react-native "^0.57.8"
-
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/collection-visit/-/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
@@ -3968,6 +3961,13 @@ react-devtools-core@^3.4.2:
 react-is@^16.6.3:
   version "16.7.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.7.0.tgz#c1bd21c64f1f1364c6f70695ec02d69392f41bfa"
+
+"react-native-collapsible-bar-flatlist@git+https://github.com/misoton665/react-native-collapsible-bar-flatlist.git#v0.0.1":
+  version "0.1.0"
+  resolved "git+https://github.com/misoton665/react-native-collapsible-bar-flatlist.git#e034ca80ed08839167abbdb277aaa7375e18348c"
+  dependencies:
+    react "^16.7.0"
+    react-native "^0.57.8"
 
 react-native@0.57.8, react-native@^0.57.8:
   version "0.57.8"
