@@ -1,7 +1,7 @@
 {
   "name": "react-native-collapsible-bar-flatlist",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "Collabsible bar flatlist component for React Native.",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -9,9 +9,9 @@
   },
   "author": "misoton665",
   "license": "MIT",
-  "dependencies": {
-    "react": "^16.7.0",
-    "react-native": "^0.57.8"
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
   },
   "devDependencies": {
     "@types/react": "^16.7.18",
